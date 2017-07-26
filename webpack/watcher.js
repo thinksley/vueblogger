@@ -10,7 +10,9 @@ const routes = [
 ]
 
 function getArticleInfo (path) {
+
   const fileName = basename(path)
+
   let content
   if (/\.md/.test(fileName)) {
     content = readFileSync(resolve(__dirname, `../articles/${fileName}`)).toString().replace(/[\n\r]/g, '')
@@ -22,6 +24,7 @@ function getArticleInfo (path) {
       console.log('articles.json has been updated.')
     } catch (__) {}
   }
+  
 }
 
 function deleteArticles (path) {

@@ -1,6 +1,6 @@
 <template>
   <nav class="nav" :class="{'hide': !showNav}">
-    <h3>Vonut</h3>
+    <h3>blogger</h3>
     <i @click="githubLink" class="fa fa-github"></i>
   </nav>
 </template>
@@ -12,7 +12,7 @@ export default {
   ],
   methods: {
     githubLink () {
-      window.location.href = 'https://github.com/jrainlau/vonut'
+      window.location.href = 'https://github.com/thinksley/vueblogger'
     }
   }
 }

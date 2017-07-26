@@ -6,7 +6,7 @@
       "vue"
     ],
     "date": "2016-06-01",
-    "desc": "you are 666",
+    "desc": "Markcook, a smart and beautiful markdown editor",
     "cover": "markcook.png"
   },
   "motto.md": {
@@ -19,6 +19,15 @@
     "date": "2016-08-05",
     "desc": "Show your motto in an amazing way!",
     "cover": "motto.png"
+  },
+  "my-diary.md": {
+    "title": "我的日志",
+    "tags": [
+      "javascript"
+    ],
+    "date": "2017-07-26",
+    "desc": "A light tool to generate projects in an easy way",
+    "cover": "9922079.jpg"
   },
   "scion.md": {
     "title": "Scion",
